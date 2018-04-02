@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YDXAds'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YDXAds.'
+  s.summary          = 'YDXAds.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+YDXAds.  做广告用途，当然还有其他功能
                        DESC
 
   s.homepage         = 'https://github.com/yuezishenyou/YDXAds'
@@ -30,6 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
+  # s.source_files = 'YDXAds/*.{h,m}'
   s.source_files = 'YDXAds/Classes/**/*'
   
   # s.resource_bundles = {

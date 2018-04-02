@@ -7,6 +7,7 @@
 //
 
 #import "YDXViewController.h"
+#import "YDXADS.h"
 
 @interface YDXViewController ()
 
@@ -17,8 +18,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    
 }
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    
+    YDXAdsNotice *notice = [YDXAdsNotice noticeTitle:@"标题" content:@"内容"];
+    
+    [notice animationDrown];
+    
+}
+
 
 - (void)didReceiveMemoryWarning
 {

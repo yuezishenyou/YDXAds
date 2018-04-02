@@ -7,12 +7,26 @@
 //
 
 #import "YDXAppDelegate.h"
+#import "YDXViewController.h"
 
 @implementation YDXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    self.window.frame = [[UIScreen mainScreen]bounds];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    YDXViewController *vc = [[YDXViewController alloc]init];
+    
+    UINavigationController *navc = [[UINavigationController alloc]initWithRootViewController:vc];
+    
+    self.window.rootViewController = navc;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
