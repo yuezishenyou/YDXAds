@@ -1,0 +1,22 @@
+{
+  "name": "YDXAds",
+  "version": "0.1.0",
+  "summary": "A short description of YDXAds.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yuezishenyou/YDXAds",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yuezishenyou": "993056895@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/yuezishenyou/YDXAds.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YDXAds/Classes/**/*"
+}
